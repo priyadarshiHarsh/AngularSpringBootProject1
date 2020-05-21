@@ -10,7 +10,7 @@
                  data-placement="right" title="Enter Student Name" >
               <div class="alert alert-danger" *ngIf = "(StudentName.touched) && (StudentName.invalid)" 
                 style="margin-top: 5px;">
-                  <span *ngIf="StudentName.errors.required">Student Name is Required</span>
+                  <span *ngIf="StudentName.errors.required">Student Name is Required..</span>
                     <span *ngIf = "StudentName.errors.minlength"> 
                         MinLength Error 
                     </span>                   
